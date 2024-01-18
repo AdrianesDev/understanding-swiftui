@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93439482B58702200A4ECC3 /* Understanding-colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439472B58702200A4ECC3 /* Understanding-colors.swift */; };
+		E934394A2B589C8100A4ECC3 /* Understanding-rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439492B589C8100A4ECC3 /* Understanding-rectangle.swift */; };
 		E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */; };
 		E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73632B4E246C003F51E8 /* ContentView.swift */; };
 		E9DC73662B4E246E003F51E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DC73652B4E246E003F51E8 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E93439472B58702200A4ECC3 /* Understanding-colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Understanding-colors.swift"; sourceTree = "<group>"; };
+		E93439492B589C8100A4ECC3 /* Understanding-rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Understanding-rectangle.swift"; sourceTree = "<group>"; };
 		E9DC735E2B4E246C003F51E8 /* understanding-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "understanding-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = understanding_swiftuiApp.swift; sourceTree = "<group>"; };
 		E9DC73632B4E246C003F51E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		E9DC73552B4E246C003F51E8 = {
 			isa = PBXGroup;
 			children = (
+				E93439492B589C8100A4ECC3 /* Understanding-rectangle.swift */,
+				E93439472B58702200A4ECC3 /* Understanding-colors.swift */,
 				E9DC73602B4E246C003F51E8 /* understanding-swiftui */,
 				E9DC735F2B4E246C003F51E8 /* Products */,
 			);
@@ -142,6 +148,8 @@
 			files = (
 				E9DC73702B4F6BFC003F51E8 /* UnderstandingText.swift in Sources */,
 				E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */,
+				E93439482B58702200A4ECC3 /* Understanding-colors.swift in Sources */,
+				E934394A2B589C8100A4ECC3 /* Understanding-rectangle.swift in Sources */,
 				E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
