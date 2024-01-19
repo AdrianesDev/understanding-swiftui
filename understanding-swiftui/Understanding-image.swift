@@ -9,10 +9,29 @@ import SwiftUI
 
 struct Understanding_image: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            Image("landmark")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 300,height: 600)
+                            .background(Color.orange)
+                            .clipShape(.circle)
+                            .clipped()
+                        .shadow(color: .black, radius: 0,x:15,y: 10)
+            Image(systemName: "battery.100.bolt")
+                .font(.system(size: 100,weight: .thin))
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(.yellow,.black,.green)
+        }
+       
+        
     }
 }
+
+
 
 #Preview {
     Understanding_image()
 }
+

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Understanding_colors: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 25) {
             Color(
                 red: 112/255,
                 green: 160/255,
