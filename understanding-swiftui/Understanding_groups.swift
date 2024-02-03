@@ -9,7 +9,19 @@ import SwiftUI
 
 struct Understanding_groups: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing:20) {
+            Group {
+                Text("Hello,")
+                Text("World!")
+                Text("What")
+                Text("are you")
+                Text("coding")
+                Text("today?")
+            }
+            .font(.largeTitle)
+            .foregroundStyle(.white)
+            .background(.gray)
+        }
     }
 }
 

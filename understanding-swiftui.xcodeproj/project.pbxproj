@@ -11,6 +11,12 @@
 		E934394A2B589C8100A4ECC3 /* Understanding-rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439492B589C8100A4ECC3 /* Understanding-rectangle.swift */; };
 		E934394C2B59A73D00A4ECC3 /* Understanding-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934394B2B59A73D00A4ECC3 /* Understanding-image.swift */; };
 		E934394F2B59C9E600A4ECC3 /* Understanding-VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934394E2B59C9E600A4ECC3 /* Understanding-VStack.swift */; };
+		E93439512B6D5F4E00A4ECC3 /* Understanding_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439502B6D5F4E00A4ECC3 /* Understanding_HStack.swift */; };
+		E93439532B6D873400A4ECC3 /* Understanding_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439522B6D873400A4ECC3 /* Understanding_ZStack.swift */; };
+		E93439552B6DAE0200A4ECC3 /* Understanding_groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */; };
+		E93439572B6DB13B00A4ECC3 /* Understanding_divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */; };
+		E93439592B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */; };
+		E934395B2B6DC0E300A4ECC3 /* Understanding_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */; };
 		E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */; };
 		E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73632B4E246C003F51E8 /* ContentView.swift */; };
 		E9DC73662B4E246E003F51E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DC73652B4E246E003F51E8 /* Assets.xcassets */; };
@@ -23,6 +29,12 @@
 		E93439492B589C8100A4ECC3 /* Understanding-rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Understanding-rectangle.swift"; sourceTree = "<group>"; };
 		E934394B2B59A73D00A4ECC3 /* Understanding-image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Understanding-image.swift"; sourceTree = "<group>"; };
 		E934394E2B59C9E600A4ECC3 /* Understanding-VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Understanding-VStack.swift"; sourceTree = "<group>"; };
+		E93439502B6D5F4E00A4ECC3 /* Understanding_HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_HStack.swift; sourceTree = "<group>"; };
+		E93439522B6D873400A4ECC3 /* Understanding_ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_ZStack.swift; sourceTree = "<group>"; };
+		E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_groups.swift; sourceTree = "<group>"; };
+		E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_divider.swift; sourceTree = "<group>"; };
+		E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_linearGradient.swift; sourceTree = "<group>"; };
+		E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_button.swift; sourceTree = "<group>"; };
 		E9DC735E2B4E246C003F51E8 /* understanding-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "understanding-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = understanding_swiftuiApp.swift; sourceTree = "<group>"; };
 		E9DC73632B4E246C003F51E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +82,12 @@
 				E9DC736F2B4F6BFC003F51E8 /* UnderstandingText.swift */,
 				E934394B2B59A73D00A4ECC3 /* Understanding-image.swift */,
 				E934394E2B59C9E600A4ECC3 /* Understanding-VStack.swift */,
+				E93439502B6D5F4E00A4ECC3 /* Understanding_HStack.swift */,
+				E93439522B6D873400A4ECC3 /* Understanding_ZStack.swift */,
+				E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */,
+				E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */,
+				E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */,
+				E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */,
 			);
 			path = "understanding-swiftui";
 			sourceTree = "<group>";
@@ -152,13 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93439512B6D5F4E00A4ECC3 /* Understanding_HStack.swift in Sources */,
 				E934394C2B59A73D00A4ECC3 /* Understanding-image.swift in Sources */,
+				E93439532B6D873400A4ECC3 /* Understanding_ZStack.swift in Sources */,
 				E9DC73702B4F6BFC003F51E8 /* UnderstandingText.swift in Sources */,
+				E934395B2B6DC0E300A4ECC3 /* Understanding_button.swift in Sources */,
+				E93439572B6DB13B00A4ECC3 /* Understanding_divider.swift in Sources */,
 				E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */,
 				E93439482B58702200A4ECC3 /* Understanding-colors.swift in Sources */,
+				E93439552B6DAE0200A4ECC3 /* Understanding_groups.swift in Sources */,
 				E934394A2B589C8100A4ECC3 /* Understanding-rectangle.swift in Sources */,
 				E934394F2B59C9E600A4ECC3 /* Understanding-VStack.swift in Sources */,
 				E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */,
+				E93439592B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

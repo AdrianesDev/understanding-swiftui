@@ -18,7 +18,7 @@ struct understanding_swiftuiApp: App {
         //Scene es un protocolo, es responsable de la vista raiz de la aplicacion
         WindowGroup {
             //WindowGroup es una Escena que contiene la vista jerarquica de la aplicacion
-            ContentView()
+            Understanding_linearGradient()
         }
     }
 }

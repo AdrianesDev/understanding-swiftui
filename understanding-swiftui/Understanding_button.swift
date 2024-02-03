@@ -9,7 +9,34 @@ import SwiftUI
 
 struct Understanding_button: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            print(
+                "Sing Up button tapped"
+            )
+        }label: {
+            HStack {
+                Image(systemName: "person")
+                Text("Sing Up")
+            }
+            .frame(
+                width: 180,
+                height: 44
+            )
+            .foregroundColor(
+                .white
+            )
+            .background(
+                Color.green
+            )
+            .clipShape(
+                .rect(
+                    cornerRadius: 12
+                )
+            )
+            .shadow(
+                radius: 8
+                )
+        }
     }
 }
 
