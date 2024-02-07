@@ -23,7 +23,7 @@ struct Understanding_button: View {
                     width: 180,
                     height: 44
                 )
-                .foregroundColor(.white)
+                .foregroundStyle(.white)
                 .background(Color.green)
                 .clipShape(
                     .rect(cornerRadius: 12))

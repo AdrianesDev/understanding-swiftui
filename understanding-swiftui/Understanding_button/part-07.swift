@@ -9,7 +9,28 @@ import SwiftUI
 
 struct part_07: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 30) {
+            //buttonBorderShapped: es un modificador para los bordes de la figura
+            Button("Sign Up") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.automatic)
+            
+            //roundedRectangle: le de aun borde curveado al rectangulo, se le puede modificar el radio del redondeado
+            Button("Sign Up") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.roundedRectangle(radius: 12))
+            
+            //capsule: setea como una figura de una capsula redondeada
+            Button("Sign Up") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.capsule)
+        }
     }
 }
 

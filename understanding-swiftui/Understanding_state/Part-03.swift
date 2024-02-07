@@ -1,5 +1,5 @@
 //
-//  part-03.swift
+//  Part-03.swift
 //  understanding-swiftui
 //
 //  Created by Desarrollo on 06/02/24.
@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct part_03: View {
+struct Part_03: View {
+    @State var text: String = "Hello World"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+        
+        Button("Change Text") {
+            text = "Hello, Dev"
+        }
+        
     }
 }
 
 #Preview {
-    part_03()
+    Part_03()
 }

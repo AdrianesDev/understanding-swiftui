@@ -9,7 +9,38 @@ import SwiftUI
 
 struct part_09: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            //controlSize: modifica el tamaño, regular es el tamaño por defecto
+            Button("Sing in") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.regular)
+            
+            Button("Sing in") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.small)
+            
+            Button("Sing in") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.mini)
+            
+            Button("Sing in") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            
+            Button("Sing in") {
+                //action
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.extraLarge)
+        }
     }
 }
 

@@ -16,7 +16,17 @@
 		E93439552B6DAE0200A4ECC3 /* Understanding_groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */; };
 		E93439572B6DB13B00A4ECC3 /* Understanding_divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */; };
 		E93439592B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */; };
-		E934395B2B6DC0E300A4ECC3 /* Understanding_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */; };
+		E934395B2B6DC0E300A4ECC3 /* 01-Understanding_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934395A2B6DC0E300A4ECC3 /* 01-Understanding_button.swift */; };
+		E934395E2B729E0200A4ECC3 /* part-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934395D2B729E0200A4ECC3 /* part-03.swift */; };
+		E93439602B72A06C00A4ECC3 /* part-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934395F2B72A06C00A4ECC3 /* part-04.swift */; };
+		E93439622B72A3B900A4ECC3 /* part-05.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439612B72A3B900A4ECC3 /* part-05.swift */; };
+		E93439642B72A4AB00A4ECC3 /* part-06.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439632B72A4AB00A4ECC3 /* part-06.swift */; };
+		E93439662B72A7DE00A4ECC3 /* part-07.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439652B72A7DE00A4ECC3 /* part-07.swift */; };
+		E93439682B72A9B600A4ECC3 /* part-08.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439672B72A9B600A4ECC3 /* part-08.swift */; };
+		E934396A2B72AECD00A4ECC3 /* part-09.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439692B72AECD00A4ECC3 /* part-09.swift */; };
+		E93439702B72B39A00A4ECC3 /* part-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934396F2B72B39A00A4ECC3 /* part-02.swift */; };
+		E93439742B72CFAF00A4ECC3 /* Part-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439732B72CFAF00A4ECC3 /* Part-03.swift */; };
+		E93439762B72EAA400A4ECC3 /* Part-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93439752B72EAA400A4ECC3 /* Part-04.swift */; };
 		E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */; };
 		E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC73632B4E246C003F51E8 /* ContentView.swift */; };
 		E9DC73662B4E246E003F51E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DC73652B4E246E003F51E8 /* Assets.xcassets */; };
@@ -34,7 +44,17 @@
 		E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_groups.swift; sourceTree = "<group>"; };
 		E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_divider.swift; sourceTree = "<group>"; };
 		E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_linearGradient.swift; sourceTree = "<group>"; };
-		E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Understanding_button.swift; sourceTree = "<group>"; };
+		E934395A2B6DC0E300A4ECC3 /* 01-Understanding_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-Understanding_button.swift"; sourceTree = "<group>"; };
+		E934395D2B729E0200A4ECC3 /* part-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-03.swift"; sourceTree = "<group>"; };
+		E934395F2B72A06C00A4ECC3 /* part-04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-04.swift"; sourceTree = "<group>"; };
+		E93439612B72A3B900A4ECC3 /* part-05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-05.swift"; sourceTree = "<group>"; };
+		E93439632B72A4AB00A4ECC3 /* part-06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-06.swift"; sourceTree = "<group>"; };
+		E93439652B72A7DE00A4ECC3 /* part-07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-07.swift"; sourceTree = "<group>"; };
+		E93439672B72A9B600A4ECC3 /* part-08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-08.swift"; sourceTree = "<group>"; };
+		E93439692B72AECD00A4ECC3 /* part-09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-09.swift"; sourceTree = "<group>"; };
+		E934396F2B72B39A00A4ECC3 /* part-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-02.swift"; sourceTree = "<group>"; };
+		E93439732B72CFAF00A4ECC3 /* Part-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Part-03.swift"; sourceTree = "<group>"; };
+		E93439752B72EAA400A4ECC3 /* Part-04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Part-04.swift"; sourceTree = "<group>"; };
 		E9DC735E2B4E246C003F51E8 /* understanding-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "understanding-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DC73612B4E246C003F51E8 /* understanding_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = understanding_swiftuiApp.swift; sourceTree = "<group>"; };
 		E9DC73632B4E246C003F51E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E934395C2B729D8E00A4ECC3 /* Understanding_button */ = {
+			isa = PBXGroup;
+			children = (
+				E934395A2B6DC0E300A4ECC3 /* 01-Understanding_button.swift */,
+				E934395D2B729E0200A4ECC3 /* part-03.swift */,
+				E934395F2B72A06C00A4ECC3 /* part-04.swift */,
+				E93439612B72A3B900A4ECC3 /* part-05.swift */,
+				E93439632B72A4AB00A4ECC3 /* part-06.swift */,
+				E93439652B72A7DE00A4ECC3 /* part-07.swift */,
+				E93439672B72A9B600A4ECC3 /* part-08.swift */,
+				E93439692B72AECD00A4ECC3 /* part-09.swift */,
+			);
+			path = Understanding_button;
+			sourceTree = "<group>";
+		};
+		E934396B2B72B16300A4ECC3 /* Understanding_state */ = {
+			isa = PBXGroup;
+			children = (
+				E934396F2B72B39A00A4ECC3 /* part-02.swift */,
+				E93439732B72CFAF00A4ECC3 /* Part-03.swift */,
+				E93439752B72EAA400A4ECC3 /* Part-04.swift */,
+			);
+			path = Understanding_state;
+			sourceTree = "<group>";
+		};
 		E9DC73552B4E246C003F51E8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +132,8 @@
 				E93439542B6DAE0200A4ECC3 /* Understanding_groups.swift */,
 				E93439562B6DB13B00A4ECC3 /* Understanding_divider.swift */,
 				E93439582B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift */,
-				E934395A2B6DC0E300A4ECC3 /* Understanding_button.swift */,
+				E934395C2B729D8E00A4ECC3 /* Understanding_button */,
+				E934396B2B72B16300A4ECC3 /* Understanding_state */,
 			);
 			path = "understanding-swiftui";
 			sourceTree = "<group>";
@@ -170,17 +216,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93439682B72A9B600A4ECC3 /* part-08.swift in Sources */,
 				E93439512B6D5F4E00A4ECC3 /* Understanding_HStack.swift in Sources */,
+				E93439622B72A3B900A4ECC3 /* part-05.swift in Sources */,
 				E934394C2B59A73D00A4ECC3 /* Understanding-image.swift in Sources */,
 				E93439532B6D873400A4ECC3 /* Understanding_ZStack.swift in Sources */,
 				E9DC73702B4F6BFC003F51E8 /* UnderstandingText.swift in Sources */,
-				E934395B2B6DC0E300A4ECC3 /* Understanding_button.swift in Sources */,
+				E934395B2B6DC0E300A4ECC3 /* 01-Understanding_button.swift in Sources */,
+				E93439742B72CFAF00A4ECC3 /* Part-03.swift in Sources */,
 				E93439572B6DB13B00A4ECC3 /* Understanding_divider.swift in Sources */,
 				E9DC73642B4E246C003F51E8 /* ContentView.swift in Sources */,
 				E93439482B58702200A4ECC3 /* Understanding-colors.swift in Sources */,
+				E93439662B72A7DE00A4ECC3 /* part-07.swift in Sources */,
+				E93439642B72A4AB00A4ECC3 /* part-06.swift in Sources */,
+				E93439762B72EAA400A4ECC3 /* Part-04.swift in Sources */,
+				E93439702B72B39A00A4ECC3 /* part-02.swift in Sources */,
 				E93439552B6DAE0200A4ECC3 /* Understanding_groups.swift in Sources */,
+				E934395E2B729E0200A4ECC3 /* part-03.swift in Sources */,
 				E934394A2B589C8100A4ECC3 /* Understanding-rectangle.swift in Sources */,
 				E934394F2B59C9E600A4ECC3 /* Understanding-VStack.swift in Sources */,
+				E93439602B72A06C00A4ECC3 /* part-04.swift in Sources */,
+				E934396A2B72AECD00A4ECC3 /* part-09.swift in Sources */,
 				E9DC73622B4E246C003F51E8 /* understanding_swiftuiApp.swift in Sources */,
 				E93439592B6DB3CD00A4ECC3 /* Understanding_linearGradient.swift in Sources */,
 			);
